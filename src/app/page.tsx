@@ -7,16 +7,8 @@ import BoardTitle from "@/components/organism/main/BoardTitle";
 import SimpleBoardObject from "@/components/organism/main/SimpleBoardObject";
 import Footer from "@/components/organism/layout/Footer";
 
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-} from "@/components/ui/carousel";
-import imageData from "@/constants/bannerData";
-import HomeNavBar from "@/components/organism/layout/HomeNavBar";
-
 export default async function Home() {
-  // git action을 위한 주석2
+  // git action을 위한 주석3
 
   // const session = await auth(); // session 호출 추가
   // console.log(session);
